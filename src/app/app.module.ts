@@ -7,13 +7,13 @@ import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { RouteModule } from './route/route.module';
+//import { RouteModule } from './route/routing.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports:      [ BrowserModule,
                   FormsModule,
-                  RouteModule,
+                 // RouteModule,
                   RouterModule ],
   declarations: [ AppComponent,
                   HelloComponent,
